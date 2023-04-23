@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather Season - Timer Pomodoro</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="/style.css">
+
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+    <!--ICONS-->
+    <script src="https://kit.fontawesome.com/01f4507687.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
+    <section>
+        <div class="container">
+            <h1>Weather Season</h1>
+
+            <div class="painel">
+                <p id="work">work</p>
+                <p id="break">break</p>
+                
+            </div>
+
+            <div class="timer">
+                <div class="circle">
+                    <div class="time">
+                        <p id="minutes"></p>
+                        <p>:</p>
+                        <p id="seconds"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="start" onclick="start()"><i class="fa-solid fa-play"></i></button>
+
+                <a href="/" id="reset"><i class="fa-solid fa-rotate-right"></i></a>
+            </div>
+
+            <div class="weather">
+                <button id="winter">Winter</button>
+                <button id="summer">Summer</button>
+                <button id="fall">Fall</button>
+                <button id="spring">Spring</button>
+            </div>
+
+        </div>
+    </section>
     
+
+    <script src="/script.js"></script>s
 </body>
 </html>
