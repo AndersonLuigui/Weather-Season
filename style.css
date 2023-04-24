@@ -124,6 +124,22 @@ section {
 }
 
 .weather {
-
     padding: 3vh;
+}
+
+.cabecario {
+
+    width: 1080;
+    height: 80px;
+}
+
+.cabecario img {
+    width: 80px;
+    height: 80px;
+}
+
+a {
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
 }
